@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T03:19:00.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60" version="13.7.4" etag="97DDhYm_zIOVw0XOldV9" type="github"><diagram id="_HKoswNFEs4e8B0K9YZv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-14T12:29:19.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60" etag="Se_PxkESrWdm-7_I0ZYd" version="13.7.4" type="github">
+  <diagram id="_HKoswNFEs4e8B0K9YZv" name="第 1 页">
+    <mxGraphModel dx="813" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_JuC-GF55s0U9OjoKntn-18" value="" style="whiteSpace=wrap;html=1;dashed=1;rounded=0;glass=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="495" y="470" width="150" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-19" value="GNSS定位模块&lt;br&gt;UBLOX NEO-M8T" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-20" value="UWB定位模块&lt;br&gt;DW1000" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-21" value="IMU惯导模块&lt;br&gt;OPENIMU300" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-22" value="" style="whiteSpace=wrap;html=1;dashed=1;rounded=0;glass=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="470" width="150" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-23" value="4G通信模块&lt;br&gt;移远EC20" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-24" value="WIFI&amp;nbsp;蓝牙模块&lt;br&gt;RTL8723BU" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;entryX=0;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_JuC-GF55s0U9OjoKntn-27" target="_JuC-GF55s0U9OjoKntn-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="685" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="465" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="1" source="_JuC-GF55s0U9OjoKntn-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-27" value="" style="whiteSpace=wrap;html=1;dashed=1;rounded=0;glass=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="620" width="145" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-28" value="中央处理器&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt ; font-family: &amp;#34;arialmt&amp;#34;&quot;&gt;i.MX8M Mini&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="520" as="sourcePoint" />
+            <mxPoint x="500" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="1" source="_JuC-GF55s0U9OjoKntn-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_JuC-GF55s0U9OjoKntn-30" target="_JuC-GF55s0U9OjoKntn-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-30" value="" style="whiteSpace=wrap;html=1;dashed=1;rounded=0;glass=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="325" y="470" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-31" value="电源管理模块&lt;br&gt;ASM1117-3.3V" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-38" value="数据通信部分" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeWidth=2;fontFamily=Helvetica;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="720" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-39" value="控制处理部分" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeWidth=2;fontFamily=Helvetica;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="720" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_JuC-GF55s0U9OjoKntn-40" value="组合定位部分" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeWidth=2;fontFamily=Helvetica;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="720" width="85" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
