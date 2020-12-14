@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T13:12:49.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60" etag="yX2a5RlLYv1uwOYCutfE" version="13.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T13:34:51.364Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60" etag="Vg3_jEP84toYAkVCpVu7" version="13.7.4" type="github">
   <diagram id="_HKoswNFEs4e8B0K9YZv" name="第 1 页">
     <mxGraphModel dx="981" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
         <mxCell id="_JuC-GF55s0U9OjoKntn-31" value="电源管理模块&lt;br&gt;ASM1117-3.3V" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_JuC-GF55s0U9OjoKntn-38" value="结果传输部分" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeWidth=2;fontFamily=Helvetica;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="_JuC-GF55s0U9OjoKntn-38" value="数据传输部分" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeWidth=2;fontFamily=Helvetica;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="532.5" y="720" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_JuC-GF55s0U9OjoKntn-39" value="控制处理部分" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeWidth=2;fontFamily=Helvetica;strokeColor=none;" vertex="1" parent="1">
