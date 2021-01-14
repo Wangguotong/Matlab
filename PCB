@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T10:39:17.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="xez7cXpuI9qKpSyvDRVS" version="14.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-14T10:40:30.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="zfbutYqacWTQ8qzviolJ" version="14.2.2" type="github" pages="2">
   <diagram id="_HKoswNFEs4e8B0K9YZv" name="第 1 页">
     <mxGraphModel dx="782" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,10 +103,10 @@
         <mxCell id="H4P7HLm21zcZJh-xyW1i-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.satellite;" vertex="1" parent="H4P7HLm21zcZJh-xyW1i-1">
           <mxGeometry x="140" y="160" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="H4P7HLm21zcZJh-xyW1i-4" value="&lt;font color=&quot;#000000&quot;&gt;基站u&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.radio_tower;" vertex="1" parent="H4P7HLm21zcZJh-xyW1i-1">
+        <mxCell id="H4P7HLm21zcZJh-xyW1i-4" value="&lt;font color=&quot;#000000&quot;&gt;参考站r&lt;br&gt;&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.radio_tower;" vertex="1" parent="H4P7HLm21zcZJh-xyW1i-1">
           <mxGeometry x="430" y="375" width="55" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="H4P7HLm21zcZJh-xyW1i-5" value="&lt;font color=&quot;#000000&quot;&gt;流动站r&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.wireless_modem;" vertex="1" parent="H4P7HLm21zcZJh-xyW1i-1">
+        <mxCell id="H4P7HLm21zcZJh-xyW1i-5" value="&lt;font color=&quot;#000000&quot;&gt;流动站u&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.wireless_modem;" vertex="1" parent="H4P7HLm21zcZJh-xyW1i-1">
           <mxGeometry x="200" y="390" width="100" height="85" as="geometry" />
         </mxCell>
         <mxCell id="H4P7HLm21zcZJh-xyW1i-7" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.satellite;" vertex="1" parent="H4P7HLm21zcZJh-xyW1i-1">
