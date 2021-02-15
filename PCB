@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T12:20:15.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="D9ZlIuvwk-etRvZZq6gi" version="14.2.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-02-15T11:40:05.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.68" etag="jFN20EBa7TaxI2eBcb-h" version="14.3.0" type="github" pages="9">
   <diagram id="_HKoswNFEs4e8B0K9YZv" name="第 1 页">
-    <mxGraphModel dx="782" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -957,6 +957,94 @@
         </mxCell>
         <mxCell id="684O80YqVhZp0wDDofie-27" value="EKF&lt;br&gt;算法融合&lt;br&gt;输出" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="ghAB_1EHYcDC7m5ROoYy-1">
           <mxGeometry x="720" y="320" width="80" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i2lokLKI--KBCnLVQ0t0" name="第 9 页">
+    <mxGraphModel dx="1246" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-0" />
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-1" parent="2kI_B5h3kyk5TMBnPl6O-0" />
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2kI_B5h3kyk5TMBnPl6O-1" source="2kI_B5h3kyk5TMBnPl6O-3" target="2kI_B5h3kyk5TMBnPl6O-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="530" />
+              <mxPoint x="320" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-3" value="" style="whiteSpace=wrap;html=1;dashed=1;rounded=0;glass=0;strokeWidth=2;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="150" y="470" width="150" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-4" value="GNSS数据采集单元&lt;br&gt;RTK定位数据" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="165" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-5" value="超宽带测量单元&lt;br&gt;UWB定位数据" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="165" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-6" value="惯性测量单元&lt;br&gt;IMU数据" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="165" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-7" value="" style="whiteSpace=wrap;html=1;dashed=1;rounded=0;glass=0;strokeWidth=2;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="500" y="470" width="150" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-8" value="组合定位结果&lt;br&gt;传输展示" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="515" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-9" value="组合定位结果&lt;br&gt;文件记录" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="515" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="2kI_B5h3kyk5TMBnPl6O-1" source="2kI_B5h3kyk5TMBnPl6O-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="688" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="688" />
+              <mxPoint x="490" y="688" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-11" value="" style="whiteSpace=wrap;html=1;dashed=1;rounded=0;glass=0;strokeWidth=2;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="327.5" y="620" width="145" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-12" value="可变参数&lt;br&gt;组合定位算法" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="340" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2kI_B5h3kyk5TMBnPl6O-1" source="2kI_B5h3kyk5TMBnPl6O-16" target="2kI_B5h3kyk5TMBnPl6O-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="580" />
+              <mxPoint x="400" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-16" value="" style="whiteSpace=wrap;html=1;dashed=1;rounded=0;glass=0;strokeWidth=2;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="325" y="470" width="145" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-17" value="多场景识别算法" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="340" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-18" value="数据输出部分" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeWidth=2;fontFamily=Helvetica;strokeColor=none;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="532.5" y="720" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-19" value="组合定位部分" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeWidth=2;fontFamily=Helvetica;strokeColor=none;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="357.5" y="720" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-20" value="数据采集部分" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeWidth=2;fontFamily=Helvetica;strokeColor=none;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="182.5" y="720" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-21" value="场景识别部分" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeWidth=2;fontFamily=Helvetica;strokeColor=none;" vertex="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry x="357.5" y="555" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2kI_B5h3kyk5TMBnPl6O-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="2kI_B5h3kyk5TMBnPl6O-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327.5" y="684.86" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="317.5" y="684.86" />
+              <mxPoint x="317.5" y="684.86" />
+            </Array>
+            <mxPoint x="300" y="684.86" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
