@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T09:11:26.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="ckTN6ZZzra6pYgBAUt3F" version="14.3.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-03T10:06:21.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="8D4BhdecDn6C0yzINrSt" version="14.3.1" type="github" pages="10">
   <diagram id="_HKoswNFEs4e8B0K9YZv" name="第 1 页">
     <mxGraphModel dx="782" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -645,7 +645,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4DzJbxS255iGzyn3WO4G" name="第 7 页">
-    <mxGraphModel dx="782" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JJaNvKAJLRseauNWia3d-0" />
         <mxCell id="JJaNvKAJLRseauNWia3d-1" parent="JJaNvKAJLRseauNWia3d-0" />
@@ -655,11 +655,11 @@
         <mxCell id="JJaNvKAJLRseauNWia3d-36" value="初始化均值avg&lt;br&gt;标准差std&lt;br&gt;阈值倍数threshold&lt;br&gt;影响因子influence&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
           <mxGeometry x="200" y="440" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JJaNvKAJLRseauNWia3d-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-37" target="JJaNvKAJLRseauNWia3d-38" edge="1">
+        <mxCell id="9URPZmb9vapVOpE2O-H5-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" edge="1" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-37" target="JJaNvKAJLRseauNWia3d-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JJaNvKAJLRseauNWia3d-37" value="输入新数据y&lt;br&gt;和influence" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
-          <mxGeometry x="30" y="565" width="90" height="70" as="geometry" />
+        <mxCell id="JJaNvKAJLRseauNWia3d-37" value="输入新数据y&lt;br&gt;影响因子influence&lt;br&gt;影响因数influ_value" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
+          <mxGeometry x="10" y="555" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JJaNvKAJLRseauNWia3d-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-38" target="JJaNvKAJLRseauNWia3d-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -667,7 +667,7 @@
         <mxCell id="JJaNvKAJLRseauNWia3d-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-38" target="JJaNvKAJLRseauNWia3d-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JJaNvKAJLRseauNWia3d-38" value="输入数据&lt;br&gt;y和均值avg之差的绝对值&lt;br&gt;是否大于阈值倍数&lt;br&gt;threshold与标准差std的乘积" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
+        <mxCell id="JJaNvKAJLRseauNWia3d-38" value="输入数据y的标准分数&lt;br&gt;&lt;i&gt;z=(y-avg)/std&lt;br&gt;&lt;/i&gt;是否超出定义阈值threshold" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
           <mxGeometry x="160" y="560" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JJaNvKAJLRseauNWia3d-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-39" target="JJaNvKAJLRseauNWia3d-47" edge="1">
@@ -676,32 +676,32 @@
         <mxCell id="JJaNvKAJLRseauNWia3d-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-39" target="JJaNvKAJLRseauNWia3d-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9URPZmb9vapVOpE2O-H5-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=2;fontSize=15;" edge="1" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-39" target="JJaNvKAJLRseauNWia3d-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JJaNvKAJLRseauNWia3d-39" value="输入数据&lt;br&gt;y是否大于均值avg" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
           <mxGeometry x="200" y="680" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JJaNvKAJLRseauNWia3d-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-40" target="JJaNvKAJLRseauNWia3d-41" edge="1">
+        <mxCell id="9URPZmb9vapVOpE2O-H5-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=2;fontSize=15;" edge="1" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-40" target="9URPZmb9vapVOpE2O-H5-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JJaNvKAJLRseauNWia3d-40" value="设置滤波后的y为&lt;br&gt;influence*y + (1-influence)*y(i-1)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
-          <mxGeometry x="160" y="800" width="240" height="80" as="geometry" />
+        <mxCell id="9URPZmb9vapVOpE2O-H5-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=2;fontSize=15;" edge="1" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-40" target="9URPZmb9vapVOpE2O-H5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJaNvKAJLRseauNWia3d-40" value="y是否超出&lt;br&gt;影响因数influ_value" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
+          <mxGeometry x="200" y="790" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JJaNvKAJLRseauNWia3d-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-41" target="JJaNvKAJLRseauNWia3d-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JJaNvKAJLRseauNWia3d-41" value="使用滤波后的y&lt;br&gt;更新均值avg&lt;br&gt;和标准差std&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
-          <mxGeometry x="200" y="920" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="JJaNvKAJLRseauNWia3d-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-46" target="JJaNvKAJLRseauNWia3d-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="200" y="1040" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JJaNvKAJLRseauNWia3d-46" value="正向信号&lt;br&gt;+1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
           <mxGeometry x="90" y="700" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JJaNvKAJLRseauNWia3d-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" source="JJaNvKAJLRseauNWia3d-47" target="JJaNvKAJLRseauNWia3d-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="JJaNvKAJLRseauNWia3d-47" value="负向信号&lt;br&gt;-1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
-          <mxGeometry x="400" y="700" width="70" height="40" as="geometry" />
+          <mxGeometry x="440" y="700" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JJaNvKAJLRseauNWia3d-52" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
           <mxGeometry x="250" y="647" width="40" height="20" as="geometry" />
@@ -716,7 +716,7 @@
           <mxGeometry x="160" y="700" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JJaNvKAJLRseauNWia3d-61" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="JJaNvKAJLRseauNWia3d-1" vertex="1">
-          <mxGeometry x="359" y="700" width="40" height="20" as="geometry" />
+          <mxGeometry x="380" y="700" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9URPZmb9vapVOpE2O-H5-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" edge="1" parent="JJaNvKAJLRseauNWia3d-1" source="9URPZmb9vapVOpE2O-H5-0" target="JJaNvKAJLRseauNWia3d-36">
           <mxGeometry relative="1" as="geometry" />
@@ -724,20 +724,42 @@
         <mxCell id="9URPZmb9vapVOpE2O-H5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" edge="1" parent="JJaNvKAJLRseauNWia3d-1" source="9URPZmb9vapVOpE2O-H5-0" target="JJaNvKAJLRseauNWia3d-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9URPZmb9vapVOpE2O-H5-0" value="输入数据y&lt;br&gt;(SNR均值或者卫星数目）" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="JJaNvKAJLRseauNWia3d-1">
-          <mxGeometry x="15" y="450" width="120" height="60" as="geometry" />
+        <mxCell id="9URPZmb9vapVOpE2O-H5-0" value="获得数据y&lt;br&gt;(SNR均值或者卫星数目）" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="JJaNvKAJLRseauNWia3d-1">
+          <mxGeometry x="5" y="440" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9URPZmb9vapVOpE2O-H5-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;fillColor=none;dashed=1;" vertex="1" parent="JJaNvKAJLRseauNWia3d-1">
-          <mxGeometry x="10" y="420" width="510" height="590" as="geometry" />
+          <mxGeometry y="420" width="520" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="9URPZmb9vapVOpE2O-H5-6" value="异常数据&lt;br&gt;识别算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="JJaNvKAJLRseauNWia3d-1">
-          <mxGeometry x="415" y="920" width="85" height="80" as="geometry" />
+        <mxCell id="9URPZmb9vapVOpE2O-H5-6" value="&lt;font style=&quot;font-size: 20px&quot;&gt;异常数据&lt;br&gt;识别算法&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="JJaNvKAJLRseauNWia3d-1">
+          <mxGeometry x="420" y="1010" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9URPZmb9vapVOpE2O-H5-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=2;fontSize=15;" edge="1" parent="JJaNvKAJLRseauNWia3d-1" source="9URPZmb9vapVOpE2O-H5-7" target="JJaNvKAJLRseauNWia3d-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9URPZmb9vapVOpE2O-H5-7" value="设置滤波后的y为&lt;br&gt;influence*y + (1-influence)*y(i-1)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="JJaNvKAJLRseauNWia3d-1">
+          <mxGeometry x="160" y="920" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9URPZmb9vapVOpE2O-H5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeWidth=2;fontSize=15;" edge="1" parent="JJaNvKAJLRseauNWia3d-1" source="9URPZmb9vapVOpE2O-H5-14" target="9URPZmb9vapVOpE2O-H5-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="458" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9URPZmb9vapVOpE2O-H5-14" value="influence = 0" style="whiteSpace=wrap;html=1;rounded=1;fontSize=15;strokeWidth=2;" vertex="1" parent="JJaNvKAJLRseauNWia3d-1">
+          <mxGeometry x="402.5" y="805" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9URPZmb9vapVOpE2O-H5-16" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="JJaNvKAJLRseauNWia3d-1">
+          <mxGeometry x="360" y="810" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9URPZmb9vapVOpE2O-H5-18" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="JJaNvKAJLRseauNWia3d-1">
+          <mxGeometry x="270" y="880" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="HKZKiQYlTnl6TmVArEvM" name="第 8 页">
-    <mxGraphModel dx="782" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ghAB_1EHYcDC7m5ROoYy-0" />
         <mxCell id="ghAB_1EHYcDC7m5ROoYy-1" parent="ghAB_1EHYcDC7m5ROoYy-0" />
@@ -758,7 +780,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="684O80YqVhZp0wDDofie-0" value="场景识别" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="ghAB_1EHYcDC7m5ROoYy-1" vertex="1">
+        <mxCell id="684O80YqVhZp0wDDofie-0" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;场景&lt;br&gt;识别&lt;br&gt;算法&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="ghAB_1EHYcDC7m5ROoYy-1" vertex="1">
           <mxGeometry x="120" y="320" width="80" height="160" as="geometry" />
         </mxCell>
         <mxCell id="684O80YqVhZp0wDDofie-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" parent="ghAB_1EHYcDC7m5ROoYy-1" source="684O80YqVhZp0wDDofie-1" target="684O80YqVhZp0wDDofie-4" edge="1">
@@ -864,6 +886,12 @@
         </mxCell>
         <mxCell id="684O80YqVhZp0wDDofie-27" value="EKF&lt;br&gt;算法融合&lt;br&gt;输出" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" parent="ghAB_1EHYcDC7m5ROoYy-1" vertex="1">
           <mxGeometry x="720" y="320" width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YstEU2GpvM2koNrAXyEA-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fontSize=15;fillColor=none;" vertex="1" parent="ghAB_1EHYcDC7m5ROoYy-1">
+          <mxGeometry x="210" y="160" width="610" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="YstEU2GpvM2koNrAXyEA-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;组合定位算法&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="ghAB_1EHYcDC7m5ROoYy-1">
+          <mxGeometry x="410" y="600" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
